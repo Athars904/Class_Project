@@ -1,0 +1,41 @@
+body
+{
+    background-color: gray;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header {
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  li {
+    margin-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s;
+    padding: 15px;
+    font-size: 30px;
+  }
+  a:hover
+  {
+    color:brown
+  }
